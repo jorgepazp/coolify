@@ -10,7 +10,7 @@
         @endisset
 
     </div>
-    <div class="info-helper-popup">
+    <div class="info-helper-popup {{ $attributes->get('popupclass') }}">
         <div class="p-4">
             {!! $helper !!}
         </div>
